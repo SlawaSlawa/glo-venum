@@ -5,9 +5,31 @@ body {
     color: #fff;
 }
 
+img {
+    max-width: 100%;
+}
+
 .container {
     max-width: 1140px;
+    width: 90%;
     margin: 0 auto;
+}
+
+.menu-button {
+    display: none;
+}
+
+.menu-close {
+    display: none;
+    opacity: 0;
+}
+
+.venom {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 728px;
+    width: 50%;
 }
 
 .logo-link {
@@ -46,7 +68,7 @@ body {
     text-decoration: none;
 }
 
-.date {
+.film-date {
     display: block;
     font-size: 24px;
     line-height: 28px;
@@ -55,7 +77,8 @@ body {
 }
 
 .film-logo {
-    margin-bottom: 40px;
+    margin-bottom: 3%;
+    max-width: 70%;
 }
 
 .film-description {
@@ -66,7 +89,7 @@ body {
 }
 
 .button-group {
-    margin-top: 70px;
+    margin-top: 5%;
 }
 
 .button {
@@ -78,6 +101,7 @@ body {
 }
 
 .button-primary {
+    background-color: #fff;
     color: #8D0019;
 }
 
@@ -98,19 +122,13 @@ body {
     line-height: 16px;
 }
 
-.venom {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
 .blood {
     height: 100vh;
     overflow: hidden;
     background-image: url(../images/blood.png), url(../images/bg.jpg);
     background-repeat: no-repeat, no-repeat;
     background-position: top right, center;
-    background-size: contain, cover;
+    background-size: 70%, cover;
 }
 
 .primary-bg {
